@@ -1,10 +1,10 @@
 # VueJS Basic Seed
 
-> Including:
-> 1. Webpack 
-> 2. ES6 with babel
-> 3. Basic routing
-> 4. Unit Testing with Karma
+Including:
+1. Webpack 
+2. ES6 with babel
+3. Basic routing
+4. Unit Testing with Karma
 
 ## Build Setup
 
