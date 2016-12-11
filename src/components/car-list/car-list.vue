@@ -23,7 +23,7 @@
     },
     data() {
       return {
-        cars: [{name: 'Ugi', power: 3}, {name: 'Shraga', power: 4}]
+        cars: [{id: 1, name: 'Cartus', power: 3}, {id: 2, name: 'Carla', power: 4}]
       }
     },
     methods: {

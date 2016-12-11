@@ -1,7 +1,7 @@
 <template lang="html">
 
   <section class="car-preview thumbnail">
-    <img class="img-responsive" src="~assets/car/1.png" alt="">
+    <img class="img-responsive" :src="'/static/img/car/' + car.id + '.png'" alt="">
     <div class="caption">
       <h4>{{car.name}}</h4>
     </div>  
