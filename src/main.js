@@ -7,10 +7,12 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact/contact';
 import CarCenter from './pages/car-center/car-center';
+import theKillingWord from './pages/theKillingWord/App';
+
 
 // Components
 import MainNav from './components/main-nav';
-import AppFooter from './components/app-footer';
+// import AppFooter from './components/app-footer';
 
 Vue.use(VueRouter);
 
@@ -31,6 +33,10 @@ const routes = [
       {
         path: '/about',
         component: About
+      },
+      {
+        path: '/Killing-Word',
+        component: theKillingWord
       }
     ]
 
@@ -43,6 +49,6 @@ const app = new Vue({
   router,
   components: {
     'main-nav': MainNav,
-    'app-footer': AppFooter
+    // 'app-footer': AppFooter
   }
 }).$mount('#app')
